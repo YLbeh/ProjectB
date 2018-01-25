@@ -22,7 +22,7 @@ html {
 }
 
   nav > a > img {
-    height: 22px;
+    height: 85px;
   }
 
   /* Responsive typography */
@@ -47,18 +47,60 @@ html {
 
   /* Jumbotron */
   .jumbotron{
-    background-image: url("../image/morningtree.jpg");
+    background-image: url("../image/motherhood_love.jpg");
     display: block;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    font-size: large;
+    font-weight: bold;
     color: white;
-  }
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-emphasis: sh;
+    }
 
+  .blue-highlight {
+    text-shadow: 
+      -3px 0px 3px blue,
+      3px 0px 3px blue,
+      6px 0px 6px blue,
+      -6px 0px 6px blue;
+    }
+
+  .parallax{
+    height: 100%;
+    background-image: url("../image/beige coffee.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .parallax2{
+    height: 100%;
+    background-image: url("../image/pink mudan.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  /*.my-container{
+      font-size: 3rem;
+      max-width: 600px;
+      margin: auto;
+      color: white;	
+    }*
+ 
   /* Box-sizing */
-  .selector-for-some-widget {
+    .selector-for-some-widget {
       box-sizing: content-box;
+  }
+  .colourblue{
+    color: blue;
+  }
+  .colourdarkorchid{
+    color: darkorchid;
   }
 
   /* LAYOUT - Responsive breakpoints */
